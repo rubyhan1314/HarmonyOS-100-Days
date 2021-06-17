@@ -2,7 +2,7 @@
 
 
 
-1、[正式学习前的扫盲 ](Day01- Java语言初识/1、正式学习前的扫盲/1、正式学习前的扫盲.md)
+1、[正式学习前的扫盲 ](Day01-Java语言初识/1、正式学习前的扫盲/1、正式学习前的扫盲.md)
 
 2、[Java介绍 - Java的历史 / Java语言的特点 / Java语言的应用场景](Day01-Java语言初识/2、Java介绍/2、Java介绍.md)
 
@@ -12,7 +12,7 @@
 
 5、[人生中的第一个Java程序：HelloWorld](Day01-Java语言初识/5、人生中的第一个Java程序：HelloWorld/5、人生中的第一个Java程序：HelloWorld.md)
 
-6、[Java编码规范](Day01- Java语言初识/6、Java编码规范/6、Java编码规范.md)
+6、[Java编码规范](Day01-Java语言初识/6、Java编码规范/6、Java编码规范.md)
 
 
 
