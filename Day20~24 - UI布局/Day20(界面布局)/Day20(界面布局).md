@@ -2134,7 +2134,7 @@ xml布局文件：
 
 初始布局如下：
 
-<img src="/Users/hanru/Documents/程序咖/鸿蒙系统/鸿蒙课程/2、UI/8、自适应盒子布局AdaptivBoxLayout/img/WX20210607-143447@2x.png" alt="WX20210607-143447@2x" style="zoom:50%;" />
+<img src="img/WX20210607-143447@2x.png" alt="WX20210607-143447@2x" style="zoom:50%;" />
 
 
 
@@ -2184,13 +2184,13 @@ AdaptiveBoxLayout,自适应盒子布局。其中放置了许多宽度相同但�
 
 点击addAdaptiveRule(100, 2000, 3)按钮，添加一个横向上为3列的自适应规则，效果如下：
 
-<img src="/Users/hanru/Documents/程序咖/鸿蒙系统/鸿蒙课程/2、UI/8、自适应盒子布局AdaptivBoxLayout/img/WX20210607-143623@2x.png" alt="WX20210607-143623@2x" style="zoom:50%;" />
+<img src="img/WX20210607-143623@2x.png" alt="WX20210607-143623@2x" style="zoom:50%;" />
 
 
 
 点击效果：
 
-<img src="/Users/hanru/Documents/程序咖/鸿蒙系统/鸿蒙课程/2、UI/8、自适应盒子布局AdaptivBoxLayout/img/adaptivboxyunxngxiaoguo1.gif" alt="2021-06-07 14.38.02" style="zoom:50%;" />
+<img src="img/adaptivboxyunxngxiaoguo1.gif" alt="2021-06-07 14.38.02" style="zoom:50%;" />
 
 
 
