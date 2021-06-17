@@ -79,15 +79,15 @@ HarmonyOS 是一款面向全场景智慧生活方式的分布式操作系统。�
 
 
 
-### Day01~15 - [语言基础](./Day01~15 - 语言基础)
+### Day01~15 - [语言基础](./Day01-15 - 语言基础)
 
 HarmonyOS提供了支持多种开发语言的API，供开发者进行应用开发。支持的开发语言包括Java、XML（Extensible Markup Language）、C/C++ 、 JS（JavaScript）、CSS（Cascading Style Sheets）和HML（HarmonyOS Markup Language）。
 
 所以你要会一种编程语言。呃，15天，努努力应该差不多的吧。这里我们以Java语言为例。
 
-#### Day01~05 - [Java语言基础入门](./Day01~15 - 语言基础/Day01~05 - Java语言基础入门)
+#### Day01~05 - [Java语言基础入门](./Day01-15 - 语言基础/Day01-05 - Java语言基础入门)
 
-##### Day01 - [Java语言初识](./Day01~15 - 语言基础/Day01~05 - Java语言基础入门/Day01 - Java语言初识.md)
+##### Day01 - [Java语言初识](./Day01-15 - 语言基础/Day01-05 - Java语言基础入门/Day01 - Java语言初识.md)
 
 - 1、正式学习前的扫盲 
 - 2、Java介绍 - Java的历史 / Java语言的特点 / Java语言的应用场景
@@ -96,7 +96,7 @@ HarmonyOS提供了支持多种开发语言的API，供开发者进行应用开�
 - 5、人生中的第一个Java程序：HelloWorld
 - 6、Java编码规范
 
-##### Day02 - [基本语法](./Day01~15 - 语言基础/Day01~05 - Java语言基础入门/Day02 - 基本语法.md)
+##### Day02 - [基本语法](./Day01-15 - 语言基础/Day01-05 - Java语言基础入门/Day02 - 基本语法.md)
 
 - 1、变量/常量 - 变量使用 / 变量的分析 / 变量的注意事项 / 常量的使用
 - 2、基本数据类型 - byte / short / int /l ong / float / double / char / boolean 
