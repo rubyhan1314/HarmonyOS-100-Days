@@ -1,4 +1,4 @@
-# HarmonyOS-100天从新手到大师
+#  HarmonyOS-100天从新手到大师
 
 
 
@@ -103,7 +103,7 @@ HarmonyOS提供了支持多种开发语言的API，供开发者进行应用开�
 - 3、运算符 - 赋值运算符 / 比较运算符 / 逻辑运算符 / 位运算符 / 位移运算符 / 三元运算符
 - 4、键盘输入和打印输出 - 键盘输入 / 屏幕输出
 
-##### Day03 - [分之语句和循环语句](./Day01-15(Go语言基础)/day03_数据类型&运算符.md)
+##### Day03 - [分之语句和循环语句](./Day01-15-语言基础/Day03-分之语句和循环语句.md)
 
 - 1、循环结构的应用场景 - 条件 / 结构 / 代码块 / 流程图
 - 2、分支语句 - if语句 / switch语句
@@ -115,7 +115,7 @@ HarmonyOS提供了支持多种开发语言的API，供开发者进行应用开�
 - 8、do-while循环 - 基本结构  / 循环中的分支结构 / 嵌套的循环
 - 9、循环控制语句 - break / continue
 
-##### Day04 - [函数/方法](./Day01-15(Go语言基础)/day04_分支语句.md)
+##### Day04 - [函数/方法](https://www.chengxuka.com/book/11/article/225)
 
 - 1、函数 - 函数的概念 / 函数的作用
 
@@ -129,7 +129,7 @@ HarmonyOS提供了支持多种开发语言的API，供开发者进行应用开�
 
 - 6、递归函数 - 递归算法 / 递归函数实现
 
-##### Day05 - [数组](./Day01-15(Go语言基础)/day05_循环语句.md)
+##### Day05 - [数组](https://www.chengxuka.com/book/11/article/226)
 
 - 1、数组 - 数组的概念 / 数组的使用 / 数组的语法 / 数组的长度 / 数组的注意点
 - 2、数组的遍历 - 数组的下标 / 普通for遍历数组 / 增强for循环遍历
@@ -141,9 +141,9 @@ HarmonyOS提供了支持多种开发语言的API，供开发者进行应用开�
 
 
 
-#### Day06~08 - [面向对象](./Day01-15(Go语言基础))
+#### Day06~08 - [面向对象](./Day01-15-语言基础/Day06-08OOP代码)
 
-##### Day06 - [面向对象初级](./Day01-15(Go语言基础)/day06_数组.md)
+##### Day06 - [面向对象初级](./Day01-15-语言基础/Day06-面向对象初级.md)
 
 - 1、安装eclipse工具
 - 2、包Package
@@ -151,13 +151,13 @@ HarmonyOS提供了支持多种开发语言的API，供开发者进行应用开�
 - 4、类和对象
 - 5、构造方法和this关键字
 
-##### Day07 - [面向对象核心](./Day01-15(Go语言基础)/day07_Slice的使用.md)
+##### Day07 - [面向对象核心](./Day01-15-语言基础/Day07-面向对象核心.md)
 
 - 1、面向对象之封装性
 - 2、面向对象之继承性
 - 3、面向对象之多态性
 
-##### Day08 - [面向对象高级](./Day01-15(Go语言基础)/day08_Map的使用.md)
+##### Day08 - [面向对象高级](./Day01-15-语言基础/Day08-面向对象高级.md)
 
 - 1、Object类
 - 2、static和final
@@ -167,7 +167,7 @@ HarmonyOS提供了支持多种开发语言的API，供开发者进行应用开�
 
 
 
-#### Day09 - [常用类](./Day01-15(Go语言基础)/day09_string.md)
+#### Day09 - [常用类](./Day01-15-语言基础/Day09常用类代码)
 
 - 1、8种基本类型和对应的包装类
 - 2、字符串
@@ -182,7 +182,7 @@ HarmonyOS提供了支持多种开发语言的API，供开发者进行应用开�
 
 
 
-#### Day10 - [集合框架](./Day01-15(Go语言基础)/day10_函数.md)
+#### Day10 - [集合框架](./Day01-15-语言基础/Day10集合代码)
 
 - 1、集合框架结构
 - 2、泛型的使用
@@ -193,7 +193,11 @@ HarmonyOS提供了支持多种开发语言的API，供开发者进行应用开�
 - 7、Map集合
 - 8、Collections工具类
 
-#### Day11 - [异常处理](./Day01-15(Go语言基础)/day11_包的管理.md)
+
+
+#### Day11 - [异常处理](./Day01-15-语言基础/Day11异常代码)
+
+[异常文档](https://www.chengxuka.com/book/16/article/257)
 
 - 1、异常的概念 - 什么是异常
 - 2、异常的分类 - 按照严重程度分类 / 按照异常性质分类
@@ -250,18 +254,36 @@ HarmonyOS提供了支持多种开发语言的API，供开发者进行应用开�
 - 7、定位布局PositionLayout
 - 8、自适应盒子布局AdaptivBoxLayout
 
-##### Day21 - [常用UI组件1](./goon.md)
+##### Day21 - [常用UI组件1](./Day20-24-UI布局/Day21-常用UI组件1.md)
 
 - 1、单位vp、fp、px
+
 - 2、常用组件Text
+
 - 3、组件Button
+
 - 4、组件TextField
+
 - 5、组件Image
 
-##### Day22 - [常用UI组件2](./goon.md)
+- 6、组件RadioButton和RadioContainer
 
-- 1、组件RadioButton和RadioContainer
-- 2、组件Checkbox
+  
+
+##### Day22 - [常用UI组件2](./Day20-24-UI布局/Day22-常用UI组件2.md)
+
+- 1、组件Checkbox
+- 2、组件Switch
+- 3、组件ToastDialog
+- 4、组件Picker
+- 5、组件DatePicker
+- 6、组件TimePicker
+- 7、组件ScrollView
+- 8、组件ProgressBar和RoundProgressBar
+
+
+
+
 
 ##### Day23 - [常用UI组件3](./goon.md)
 
