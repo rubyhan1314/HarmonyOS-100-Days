@@ -3,6 +3,16 @@
 
 
 > 最近有很多小伙伴都在寻找HarmonyOS的学习资料，但是录制视频和设计教程都需要不少的时间，平时也在筹备[鸿蒙巴士](https://www.harmonybus.net/)的事情，所以时间上比较紧张，我和春哥分别负责一部分HarmonyOS内容的产出。从技术文章，到视频，到项目代码。也都公布在各大平台上，但是知乎上就只方便看技术文章，B站上就只方便看视频。所以我们在github上上传了我们所有的学习资料，从最基础的入门到项目设计，希望帮助更多想了解和学习HarmonyOS的伙伴，为方便大家交流学习，可以加入QQ群探讨。
+>
+> 更多内容：
+>
+> 1、社区：鸿蒙巴士https://www.harmonybus.net/
+>
+> 2、公众号：HarmonyBus
+>
+> 3、技术交流QQ群：714518656
+>
+> 4、视频课：程序咖官网https://www.chengxuka.com
 
 <img src="img/qq群.jpeg" alt="qq群" style="zoom:50%;" />
 
