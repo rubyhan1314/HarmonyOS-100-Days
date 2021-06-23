@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DirectionalLayout
+    xmlns:ohos="http://schemas.huawei.com/res/ohos"
+    ohos:width="match_parent"
+    ohos:height="match_parent"
+    ohos:orientation="vertical">
+<!--上面两个饼-->
+    <DirectionalLayout
+        ohos:width="match_parent"
+        ohos:height="match_content"
+        ohos:orientation="horizontal"
+        >
+        <Text
+            ohos:width="80vp"
+            ohos:height="80vp"
+            ohos:background_element="$media:binggan"
+            ohos:layout_alignment="left"
+            />
+        <DirectionalLayout
+            ohos:height="match_content"
+            ohos:weight="1"
+            ohos:width="0vp"
+            ohos:orientation="vertical">
+            <Text
+                ohos:width="80vp"
+                ohos:height="80vp"
+                ohos:background_element="$media:binggan"
+                ohos:layout_alignment="right"
+                />
+        </DirectionalLayout>
+    </DirectionalLayout>
+
+<!--中间的饼-->
+
+    <DirectionalLayout
+        ohos:height="0vp"
+        ohos:width="match_parent"
+        ohos:weight="1"
+        ohos:alignment="center"
+        ohos:orientation="vertical">
+        <Text
+            ohos:width="80vp"
+            ohos:height="80vp"
+            ohos:background_element="$media:binggan"
+            />
+    </DirectionalLayout>
+
+
+    <!--下面两个饼-->
+    <DirectionalLayout
+        ohos:width="match_parent"
+        ohos:height="match_content"
+        ohos:orientation="horizontal"
+        >
+        <Text
+            ohos:width="80vp"
+            ohos:height="80vp"
+            ohos:background_element="$media:binggan"
+            ohos:layout_alignment="left"
+            />
+        <DirectionalLayout
+            ohos:height="match_content"
+            ohos:weight="1"
+            ohos:width="0vp"
+            ohos:alignment="bottom|right"
+            ohos:orientation="vertical">
+            <Text
+                ohos:width="80vp"
+                ohos:height="80vp"
+                ohos:background_element="$media:binggan"
+                />
+        </DirectionalLayout>
+    </DirectionalLayout>
+</DirectionalLayout>

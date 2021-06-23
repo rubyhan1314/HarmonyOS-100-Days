@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<StackLayout
+    xmlns:ohos="http://schemas.huawei.com/res/ohos"
+    ohos:id="$+id:stack_layout"
+    ohos:height="match_parent"
+    ohos:width="match_parent">
+
+    <Text
+        ohos:id="$+id:text1"
+        ohos:height="380vp"
+        ohos:width="match_parent"
+        ohos:text_alignment="bottom|horizontal_center"
+        ohos:text_size="24fp"
+        ohos:text="Layer 1"
+        ohos:background_element="#C71585" />
+
+    <Text
+        ohos:id="$+id:text2"
+        ohos:height="280vp"
+        ohos:width="280vp"
+        ohos:text_alignment="bottom|horizontal_center"
+        ohos:text_size="24fp"
+        ohos:text="Layer 2"
+        ohos:background_element="#FF69B4" />
+
+    <Text
+        ohos:id="$+id:text3"
+        ohos:height="180vp"
+        ohos:width="180vp"
+        ohos:text_alignment="center"
+        ohos:text_size="24fp"
+        ohos:text="Layer 3"
+        ohos:background_element="#FFC0CB" />
+
+
+</StackLayout>

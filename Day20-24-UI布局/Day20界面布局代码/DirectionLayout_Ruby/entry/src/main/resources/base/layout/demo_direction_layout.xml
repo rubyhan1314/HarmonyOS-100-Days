@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DirectionalLayout xmlns:ohos="http://schemas.huawei.com/res/ohos"
+                   ohos:width="match_parent"
+                   ohos:height="match_parent"
+                   ohos:background_element="$graphic:color_light_gray_element">
+    <DirectionalLayout
+        ohos:width="match_parent"
+        ohos:height="match_content"
+        ohos:orientation="vertical">
+        <Button
+            ohos:width="33vp"
+            ohos:height="20vp"
+            ohos:bottom_margin="3vp"
+            ohos:left_margin="13vp"
+            ohos:background_element="$graphic:color_cyan_element"
+            ohos:text="Button 1"/>
+        <Button
+            ohos:width="33vp"
+            ohos:height="20vp"
+            ohos:bottom_margin="3vp"
+            ohos:left_margin="13vp"
+            ohos:background_element="$graphic:color_cyan_element"
+            ohos:text="Button 2"/>
+        <Button
+            ohos:width="33vp"
+            ohos:height="20vp"
+            ohos:bottom_margin="3vp"
+            ohos:left_margin="13vp"
+            ohos:background_element="$graphic:color_cyan_element"
+            ohos:text="Button 3"/>
+    </DirectionalLayout>
+    <Component ohos:height="20vp"
+               ohos:width="match_parent"/>
+    <DirectionalLayout
+        ohos:width="match_parent"
+        ohos:height="match_content"
+        ohos:orientation="horizontal">
+        <Button
+            ohos:width="33vp"
+            ohos:height="20vp"
+            ohos:left_margin="13vp"
+            ohos:background_element="$graphic:color_cyan_element"
+            ohos:text="Button 1"/>
+        <Button
+            ohos:width="33vp"
+            ohos:height="20vp"
+            ohos:left_margin="13vp"
+            ohos:background_element="$graphic:color_cyan_element"
+            ohos:text="Button 2"/>
+        <Button
+            ohos:width="33vp"
+            ohos:height="20vp"
+            ohos:left_margin="13vp"
+            ohos:background_element="$graphic:color_cyan_element"
+            ohos:text="Button 3"/>
+    </DirectionalLayout>
+    <Component ohos:height="20vp"
+               ohos:width="match_parent"/>
+    <DirectionalLayout
+        ohos:width="match_parent"
+        ohos:height="20vp"
+        ohos:orientation="horizontal">
+        <Button
+            ohos:width="166vp"
+            ohos:height="match_content"
+            ohos:left_margin="13vp"
+            ohos:background_element="$graphic:color_cyan_element"
+            ohos:text="Button 1"/>
+        <Button
+            ohos:width="166vp"
+            ohos:height="match_content"
+            ohos:left_margin="13vp"
+            ohos:background_element="$graphic:color_cyan_element"
+            ohos:text="Button 2"/>
+        <Button
+            ohos:width="166vp"
+            ohos:height="match_content"
+            ohos:left_margin="13vp"
+            ohos:background_element="$graphic:color_cyan_element"
+            ohos:text="Button 3"/>
+    </DirectionalLayout>
+    <Component ohos:height="20vp"
+               ohos:width="match_parent"/>
+    <DirectionalLayout
+        ohos:width="match_parent"
+        ohos:height="60vp">
+        <Button
+            ohos:width="50vp"
+            ohos:height="20vp"
+            ohos:background_element="$graphic:color_cyan_element"
+            ohos:layout_alignment="left"
+            ohos:text="Button 1"/>
+        <Button
+            ohos:width="50vp"
+            ohos:height="20vp"
+            ohos:background_element="$graphic:color_cyan_element"
+            ohos:layout_alignment="horizontal_center"
+            ohos:text="Button 2"/>
+        <Button
+            ohos:width="50vp"
+            ohos:height="20vp"
+            ohos:background_element="$graphic:color_cyan_element"
+            ohos:layout_alignment="right"
+            ohos:text="Button 3"/>
+    </DirectionalLayout>
+    <Component ohos:height="20vp"
+               ohos:width="match_parent"/>
+    <DirectionalLayout
+        ohos:width="match_parent"
+        ohos:height="match_content"
+        ohos:orientation="horizontal">
+        <Button
+            ohos:width="0vp"
+            ohos:height="20vp"
+            ohos:weight="1"
+            ohos:background_element="$graphic:color_cyan_element"
+            ohos:text="Button 1"/>
+        <Button
+            ohos:width="0vp"
+            ohos:height="20vp"
+            ohos:weight="1"
+            ohos:background_element="$graphic:color_gray_element"
+            ohos:text="Button 2"/>
+        <Button
+            ohos:width="0vp"
+            ohos:height="20vp"
+            ohos:weight="1"
+            ohos:background_element="$graphic:color_cyan_element"
+            ohos:text="Button 3"/>
+    </DirectionalLayout>
+</DirectionalLayout>

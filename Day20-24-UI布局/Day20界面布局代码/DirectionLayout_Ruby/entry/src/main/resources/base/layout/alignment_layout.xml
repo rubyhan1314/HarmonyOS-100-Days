@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DirectionalLayout
+    xmlns:ohos="http://schemas.huawei.com/res/ohos"
+    ohos:height="match_parent"
+    ohos:width="match_parent"
+    ohos:orientation="vertical"
+    ohos:alignment="bottom|right"
+    >
+
+    <Text
+        ohos:height="200vp"
+        ohos:width="200vp"
+        ohos:background_element="#ff00ff"
+        />
+    <Text
+        ohos:height="200vp"
+        ohos:width="200vp"
+        ohos:background_element="#ffff00"
+        />
+</DirectionalLayout>

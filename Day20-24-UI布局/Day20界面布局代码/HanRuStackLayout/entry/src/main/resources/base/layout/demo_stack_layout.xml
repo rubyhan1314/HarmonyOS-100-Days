@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<StackLayout
+    xmlns:ohos="http://schemas.huawei.com/res/ohos"
+    ohos:height="match_parent"
+    ohos:width="match_parent"
+    ohos:orientation="vertical">
+    <!--第一层是背景-->
+    <!--   ohos:scale_mode="clip_center"图片缩放模式，可以查看Image的文档 -->
+    <Image
+        ohos:height="match_parent"
+        ohos:width="match_parent"
+        ohos:image_src="$media:tiankong"
+        ohos:scale_mode="clip_center"
+        />
+    <!-- 第二层为小鸟，菩萨，跑车
+
+   负数就是在原来的基础上相反方向移动多少
+
+   注意：此处是负数，因为 layout_alignment = "center"
+   表示水平和垂直方向上居中，基准线为视图水平和垂直方向的中点，
+   因为鸟在基准线的上方向(负方向)，所以为负数)
+   -->
+
+    <Image
+        ohos:height="50vp"
+        ohos:width="50vp"
+        ohos:scale_mode="stretch"
+        ohos:image_src="$media:bird"
+        ohos:layout_alignment="center"
+        ohos:top_margin="-120vp"
+        ohos:left_margin="-40vp"
+        />
+    <!--菩萨-->
+    <Image
+        ohos:height="120vp"
+        ohos:width="100vp"
+        ohos:image_src="$media:pusa"
+        ohos:scale_mode="stretch"
+        ohos:layout_alignment="top|right"
+        ohos:top_margin="30vp"
+        ohos:right_margin="40vp"/>
+    <!-- 跑车-->
+     <Image
+         ohos:height="150vp"
+         ohos:width="150vp"
+         ohos:image_src="$media:car"
+         ohos:scale_mode="stretch"
+         ohos:layout_alignment="horizontal_center|bottom"
+         ohos:bottom_margin="50vp"/>
+</StackLayout>

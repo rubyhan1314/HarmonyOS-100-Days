@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DependentLayout
+    xmlns:ohos="http://schemas.huawei.com/res/ohos"
+    ohos:width="300vp"
+    ohos:height="200vp"
+    ohos:background_element="#ffbbbbbb"
+    >
+    <Text
+
+        ohos:id="$+id:text1"
+        ohos:width="match_content"
+        ohos:height="match_content"
+        ohos:text="父容器右侧并居中"
+        ohos:text_size="12fp"
+        ohos:background_element="#48D1CC"
+        ohos:align_parent_right="true"
+        ohos:center_in_parent="true"/>
+    <Text
+        ohos:id="$+id:text2"
+        ohos:width="match_content"
+        ohos:height="match_content"
+        ohos:text="父容器底部"
+        ohos:text_size="12fp"
+        ohos:background_element="#FFA500"
+        ohos:align_parent_bottom="true"
+        ohos:center_in_parent="true"/>
+    <Text
+        ohos:id="$+id:text3"
+        ohos:width="match_content"
+        ohos:height="match_content"
+        ohos:text="父容器中心"
+        ohos:text_size="12fp"
+        ohos:background_element="#BA55D3"
+        ohos:center_in_parent="true"/>
+    <Text
+        ohos:id="$+id:text4"
+        ohos:width="match_content"
+        ohos:height="match_content"
+        ohos:text="父容器左上"
+        ohos:text_size="12fp"
+        ohos:background_element="#FF1493"
+        ohos:align_parent_left="true"
+        ohos:align_parent_top="true"/>
+    <Text
+        ohos:id="$+id:text5"
+        ohos:width="match_content"
+        ohos:height="match_content"
+        ohos:text="父容器左下"
+        ohos:text_size="12fp"
+        ohos:background_element="#1E90FF"
+        ohos:align_parent_left="true"
+        ohos:align_parent_bottom="true"/>
+</DependentLayout>

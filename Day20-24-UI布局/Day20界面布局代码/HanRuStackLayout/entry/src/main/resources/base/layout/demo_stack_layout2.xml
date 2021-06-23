@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<StackLayout
+    xmlns:ohos="http://schemas.huawei.com/res/ohos"
+    ohos:height="match_parent"
+    ohos:width="match_parent"
+    ohos:id="$+id:stack_layout"
+    >
+    <Text
+        ohos:id="$+id:text_msg"
+        ohos:height="match_content"
+        ohos:width="match_content"
+        ohos:layout_alignment="horizontal_center"
+        ohos:text="点一下有美女"
+        ohos:text_size="20fp"
+        ohos:top_margin="40vp"
+
+        />
+    <Image
+        ohos:id="$+id:image1"
+        ohos:height="match_content"
+        ohos:width="match_content"
+        ohos:image_src="$media:xiaoniu"
+        ohos:layout_alignment="center"
+        ohos:clickable="true"
+        />
+    <Text
+        ohos:id="$+id:text1"
+        ohos:height="460vp"
+        ohos:width="280vp"
+        ohos:background_element="#F8CAC5"
+        ohos:layout_alignment="center"
+        ohos:text="点击一下，有惊喜喔！"
+        ohos:text_alignment="center"
+        ohos:text_size="20fp"
+        />
+
+
+
+
+</StackLayout>
