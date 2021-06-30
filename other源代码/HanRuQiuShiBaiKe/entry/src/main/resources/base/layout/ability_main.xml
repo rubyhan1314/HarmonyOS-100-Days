@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DirectionalLayout
+    xmlns:ohos="http://schemas.huawei.com/res/ohos"
+    ohos:height="match_parent"
+    ohos:width="match_parent"
+    ohos:padding="10vp"
+    ohos:orientation="vertical">
+
+    <Button
+        ohos:id="$+id:btn_download"
+        ohos:height="match_content"
+        ohos:width="match_content"
+        ohos:text="点击下载糗百数据"
+        ohos:text_size="25fp"
+        ohos:background_element="#EEEEEE"
+        ohos:padding="5vp"
+        />
+    <RoundProgressBar
+        ohos:id="$+id:round_progress_bar1"
+        ohos:height="200vp"
+        ohos:width="200vp"
+        ohos:progress_width="10vp"
+        ohos:top_margin="150vp"
+        ohos:progress_hint_text="加载ing。。"
+        ohos:progress_hint_text_color="#C71585"
+        ohos:layout_alignment="center"
+        ohos:visibility="hide"
+        ohos:progress_color="#C71585"/>
+    <ListContainer
+        ohos:id="$+id:list_container"
+        ohos:height="match_parent"
+        ohos:width="match_parent"
+        ohos:rebound_effect="true"
+        />
+
+
+
+
+</DirectionalLayout>

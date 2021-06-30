@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DirectionalLayout
+    xmlns:ohos="http://schemas.huawei.com/res/ohos"
+    ohos:height="match_parent"
+    ohos:width="match_parent"
+    ohos:background_element="#DCDCDC"
+    ohos:alignment="center"
+    ohos:orientation="vertical">
+
+    <Text
+        ohos:id="$+id:text1"
+        ohos:height="100vp"
+        ohos:width="match_parent"
+        ohos:background_element="#FFB6C1"
+        ohos:text="面朝大海，春暖花开"
+        ohos:text_size="25fp"
+        ohos:text_alignment="center"
+        ohos:margin="10vp"
+        />
+    <Text
+        ohos:height="100vp"
+        ohos:width="match_parent"
+        ohos:background_element="#FFB6C1"
+        ohos:text="形成大海"
+        ohos:text_size="25fp"
+        ohos:text_alignment="center"
+        ohos:margin="10vp"
+        />
+
+</DirectionalLayout>
