@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DirectionalLayout
+    xmlns:ohos="http://schemas.huawei.com/res/ohos"
+    ohos:height="match_parent"
+    ohos:width="match_parent"
+    ohos:background_element="#FFB20C"
+    ohos:left_padding="20vp"
+    ohos:top_padding="10vp"
+    ohos:right_padding="20vp"
+    ohos:orientation="vertical">
+
+
+    <Text
+        ohos:id="$+id:text_date"
+        ohos:height="match_content"
+        ohos:width="match_parent"
+        ohos:text_alignment="center"
+        ohos:text_size="20fp"
+        ohos:text_color="#FFFFFF"
+        ohos:text="日期"
+        ohos:bottom_margin="5vp"
+        />
+    <Text
+        ohos:height="2vp"
+        ohos:width="match_parent"
+        ohos:background_element="#99FFFFFF"
+        />
+    <Text
+        ohos:id="$+id:text_temp"
+        ohos:height="match_content"
+        ohos:width="match_content"
+        ohos:text_size="24fp"
+        ohos:text_color="#FFFFFF"
+        ohos:text="温度"
+        ohos:margin="10vp"
+        />
+    <DirectionalLayout
+        ohos:height="match_content"
+        ohos:width="match_parent"
+        ohos:orientation="horizontal"
+        ohos:bottom_margin="5vp"
+        >
+
+
+        <Text
+            ohos:id="$+id:text_humidity"
+            ohos:height="match_content"
+            ohos:width="match_content"
+            ohos:text_size="20fp"
+            ohos:text_color="#FFFFFF"
+            ohos:text="湿度"
+            ohos:left_margin="10vp"
+            />
+        <Text
+            ohos:id="$+id:text_wind"
+            ohos:height="match_content"
+            ohos:width="match_content"
+            ohos:text_size="20fp"
+            ohos:text_color="#FFFFFF"
+            ohos:text="风速"
+            ohos:left_margin="10vp"
+            />
+    </DirectionalLayout>
+
+
+</DirectionalLayout>
