@@ -1,0 +1,28 @@
+{
+  "string": [
+    {
+      "name": "entry_MainAbility",
+      "value": "entry_MainAbility"
+    },
+    {
+      "name": "mainability_description",
+      "value": "Java_Empty Ability"
+    },
+    {
+      "name": "mainability_HelloWorld",
+      "value": "Hello World"
+    },
+    {
+      "name": "localserviceability_description",
+      "value": "hap sample empty service"
+    },
+    {
+      "name": "remoteserviceability_description",
+      "value": "hap sample empty service"
+    },
+    {
+      "name": "foregroundserviceability_description",
+      "value": "hap sample empty service"
+    }
+  ]
+}

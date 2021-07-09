@@ -1,0 +1,76 @@
+{
+  "app": {
+    "bundleName": "com.example.hanruserviceability",
+    "vendor": "example",
+    "version": {
+      "code": 1000000,
+      "name": "1.0.0"
+    }
+  },
+  "deviceConfig": {},
+  "module": {
+    "package": "com.example.hanruserviceability",
+    "name": ".MyApplication",
+    "mainAbility": "com.example.hanruserviceability.MainAbility",
+    "deviceType": [
+      "phone"
+    ],
+    "distro": {
+      "deliveryWithInstall": true,
+      "moduleName": "entry",
+      "moduleType": "entry",
+      "installationFree": false
+    },
+    "abilities": [
+      {
+        "skills": [
+          {
+            "entities": [
+              "entity.system.home"
+            ],
+            "actions": [
+              "action.system.home"
+            ]
+          }
+        ],
+        "orientation": "unspecified",
+        "name": "com.example.hanruserviceability.MainAbility",
+        "icon": "$media:icon",
+        "description": "$string:mainability_description",
+        "label": "$string:entry_MainAbility",
+        "type": "page",
+        "launchType": "standard"
+      },
+      {
+        "name": "com.example.hanruserviceability.LocalServiceAbility",
+        "icon": "$media:icon",
+        "description": "$string:localserviceability_description",
+        "type": "service"
+      },
+      {
+        "name": "com.example.hanruserviceability.RemoteServiceAbility",
+        "icon": "$media:icon",
+        "description": "$string:remoteserviceability_description",
+        "type": "service"
+      },
+      {
+        "name": "com.example.hanruserviceability.ForegroundServiceAbility",
+        "icon": "$media:icon",
+        "description": "$string:foregroundserviceability_description",
+        "type": "service",
+        "backgroundModes": ["dataTransfer", "location"]
+      }
+    ],
+    "reqPermissions": [
+      {
+        "name": "ohos.permission.GET_DISTRIBUTED_DEVICE_INFO"
+      },
+      {
+        "name": "ohos.permission.KEEP_BACKGROUND_RUNNING"
+      },
+      {
+        "name": "ohos.permission.DISTRIBUTED_DATASYNC"
+      }
+    ]
+  }
+}

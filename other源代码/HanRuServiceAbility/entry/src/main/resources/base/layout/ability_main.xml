@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DirectionalLayout
+    xmlns:ohos="http://schemas.huawei.com/res/ohos"
+    ohos:height="match_parent"
+    ohos:width="match_parent"
+    ohos:alignment="center"
+    ohos:padding="5vp"
+    ohos:orientation="vertical">
+
+    <Button
+        ohos:id="$+id:start_local_button"
+        ohos:height="match_content"
+        ohos:width="300vp"
+        ohos:padding="5vp"
+        ohos:text="启动本地Service"
+        ohos:background_element="$graphic:button_bg"
+        ohos:top_margin="50vp"
+        ohos:text_alignment="center"
+        ohos:text_size="18fp"/>
+
+    <Button
+        ohos:id="$+id:stop_local_button"
+        ohos:height="match_content"
+        ohos:width="300vp"
+        ohos:padding="5vp"
+        ohos:text="停止本地Service"
+        ohos:background_element="$graphic:button_bg"
+        ohos:top_margin="10vp"
+        ohos:text_alignment="center"
+        ohos:text_size="18fp"/>
+
+    <Button
+        ohos:id="$+id:connect_local_button"
+        ohos:height="match_content"
+        ohos:width="300vp"
+        ohos:top_margin="10vp"
+        ohos:padding="5vp"
+        ohos:text="连接本地Service"
+        ohos:background_element="$graphic:button_bg"
+        ohos:text_alignment="center"
+        ohos:text_size="18fp"/>
+
+    <Button
+        ohos:id="$+id:disconnect_local_button"
+        ohos:height="match_content"
+        ohos:width="300vp"
+        ohos:top_margin="10vp"
+        ohos:padding="5vp"
+        ohos:text="断开连接本地Service"
+        ohos:background_element="$graphic:button_bg"
+        ohos:text_alignment="center"
+        ohos:text_size="18fp"/>
+
+    <Text
+        ohos:width="match_parent"
+        ohos:height="1vp"
+        ohos:top_margin="10vp"
+        ohos:bottom_margin="10vp"
+        ohos:background_element="#0000FF"/>
+
+    <Button
+        ohos:id="$+id:start_remote_button"
+        ohos:height="match_content"
+        ohos:width="300vp"
+        ohos:padding="5vp"
+        ohos:text="启动远程Service"
+        ohos:background_element="$graphic:button_bg"
+        ohos:top_margin="10vp"
+        ohos:text_alignment="center"
+        ohos:text_size="18fp"/>
+    <Button
+        ohos:id="$+id:stop_remote_button"
+        ohos:height="match_content"
+        ohos:width="300vp"
+        ohos:padding="5vp"
+        ohos:text="停止远程Service"
+        ohos:background_element="$graphic:button_bg"
+        ohos:top_margin="10vp"
+        ohos:text_alignment="center"
+        ohos:text_size="18fp"/>
+    <Button
+        ohos:id="$+id:connect_remote_button"
+        ohos:height="match_content"
+        ohos:width="300vp"
+        ohos:top_margin="10vp"
+        ohos:padding="5vp"
+        ohos:text="连接远程Service"
+        ohos:background_element="$graphic:button_bg"
+        ohos:text_alignment="center"
+        ohos:text_size="18fp"/>
+
+    <Button
+        ohos:id="$+id:disconnect_remote_button"
+        ohos:height="match_content"
+        ohos:width="300vp"
+        ohos:top_margin="10vp"
+        ohos:padding="5vp"
+        ohos:text="断开连接远程Service"
+        ohos:background_element="$graphic:button_bg"
+        ohos:text_alignment="center"
+        ohos:text_size="18fp"/>
+
+    <Text
+        ohos:width="match_parent"
+        ohos:height="1vp"
+        ohos:top_margin="10vp"
+        ohos:bottom_margin="10vp"
+        ohos:background_element="#0000FF"/>
+
+
+
+    <Button
+        ohos:id="$+id:keep_run_button"
+        ohos:height="match_content"
+        ohos:width="300vp"
+        ohos:padding="5vp"
+        ohos:top_margin="10vp"
+        ohos:bottom_margin="10vp"
+        ohos:text="Keep Background Running"
+        ohos:background_element="$graphic:button_bg"
+        ohos:text_alignment="center"
+        ohos:text_size="18fp"/>
+
+</DirectionalLayout>
